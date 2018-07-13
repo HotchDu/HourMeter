@@ -1,0 +1,9 @@
+D:\Learning\C#\HourMeter\HourMeter\bin\Debug\HourMeter.exe.config
+D:\Learning\C#\HourMeter\HourMeter\bin\Debug\HourMeter.exe
+D:\Learning\C#\HourMeter\HourMeter\bin\Debug\HourMeter.pdb
+D:\Learning\C#\HourMeter\HourMeter\obj\Debug\HourMeter.csprojResolveAssemblyReference.cache
+D:\Learning\C#\HourMeter\HourMeter\obj\Debug\HourMeter.Form1.resources
+D:\Learning\C#\HourMeter\HourMeter\obj\Debug\HourMeter.Properties.Resources.resources
+D:\Learning\C#\HourMeter\HourMeter\obj\Debug\HourMeter.csproj.GenerateResource.Cache
+D:\Learning\C#\HourMeter\HourMeter\obj\Debug\HourMeter.exe
+D:\Learning\C#\HourMeter\HourMeter\obj\Debug\HourMeter.pdb
