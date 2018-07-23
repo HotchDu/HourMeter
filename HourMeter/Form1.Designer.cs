@@ -35,8 +35,9 @@
             this.texSec = new System.Windows.Forms.TextBox();
             this.Stop = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.Continue = new System.Windows.Forms.Button();
+            this.texMinSec = new System.Windows.Forms.TextBox();
             this.Lab_Time = new System.Windows.Forms.Label();
+            this.Record = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Start
@@ -51,7 +52,7 @@
             // 
             // texHour
             // 
-            this.texHour.Location = new System.Drawing.Point(31, 17);
+            this.texHour.Location = new System.Drawing.Point(12, 17);
             this.texHour.Multiline = true;
             this.texHour.Name = "texHour";
             this.texHour.Size = new System.Drawing.Size(64, 19);
@@ -59,7 +60,7 @@
             // 
             // texMin
             // 
-            this.texMin.Location = new System.Drawing.Point(117, 17);
+            this.texMin.Location = new System.Drawing.Point(92, 17);
             this.texMin.Multiline = true;
             this.texMin.Name = "texMin";
             this.texMin.Size = new System.Drawing.Size(64, 19);
@@ -67,7 +68,7 @@
             // 
             // texSec
             // 
-            this.texSec.Location = new System.Drawing.Point(202, 17);
+            this.texSec.Location = new System.Drawing.Point(171, 17);
             this.texSec.Multiline = true;
             this.texSec.Name = "texSec";
             this.texSec.Size = new System.Drawing.Size(64, 19);
@@ -83,38 +84,47 @@
             this.Stop.UseVisualStyleBackColor = true;
             this.Stop.Click += new System.EventHandler(this.Stop_Click);
             // 
-            // Continue
+            // texMinSec
             // 
-            this.Continue.Location = new System.Drawing.Point(117, 55);
-            this.Continue.Name = "Continue";
-            this.Continue.Size = new System.Drawing.Size(75, 23);
-            this.Continue.TabIndex = 6;
-            this.Continue.Text = "Continue";
-            this.Continue.UseVisualStyleBackColor = true;
-            this.Continue.Click += new System.EventHandler(this.Continue_Click);
+            this.texMinSec.Location = new System.Drawing.Point(256, 17);
+            this.texMinSec.Multiline = true;
+            this.texMinSec.Name = "texMinSec";
+            this.texMinSec.Size = new System.Drawing.Size(64, 19);
+            this.texMinSec.TabIndex = 6;
             // 
             // Lab_Time
             // 
             this.Lab_Time.AutoSize = true;
-            this.Lab_Time.Location = new System.Drawing.Point(45, 98);
+            this.Lab_Time.Location = new System.Drawing.Point(40, 113);
             this.Lab_Time.Name = "Lab_Time";
             this.Lab_Time.Size = new System.Drawing.Size(0, 13);
             this.Lab_Time.TabIndex = 7;
+            // 
+            // Record
+            // 
+            this.Record.Location = new System.Drawing.Point(375, 55);
+            this.Record.Name = "Record";
+            this.Record.Size = new System.Drawing.Size(75, 23);
+            this.Record.TabIndex = 8;
+            this.Record.Text = "Record";
+            this.Record.UseVisualStyleBackColor = true;
+            this.Record.Click += new System.EventHandler(this.Record_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(332, 138);
+            this.ClientSize = new System.Drawing.Size(545, 362);
+            this.Controls.Add(this.Record);
             this.Controls.Add(this.Lab_Time);
-            this.Controls.Add(this.Continue);
+            this.Controls.Add(this.texMinSec);
             this.Controls.Add(this.Stop);
             this.Controls.Add(this.texSec);
             this.Controls.Add(this.texMin);
             this.Controls.Add(this.texHour);
             this.Controls.Add(this.Start);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "HourMeter";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -129,8 +139,9 @@
         private System.Windows.Forms.TextBox texSec;
         private System.Windows.Forms.Button Stop;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Button Continue;
+        private System.Windows.Forms.TextBox texMinSec;
         private System.Windows.Forms.Label Lab_Time;
+        private System.Windows.Forms.Button Record;
     }
 }
 
